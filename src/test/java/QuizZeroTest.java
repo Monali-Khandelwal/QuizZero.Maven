@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 public class QuizZeroTest {
 
     @Test
-    public void qzero() {
+    public void qzero () {
         assertEquals(0, QuizZero.Qzero(5, 6));
         assertEquals(0, QuizZero.Qzero(3, -96));
     }
